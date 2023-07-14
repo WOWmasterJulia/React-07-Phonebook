@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 import { fetchAllContacts, addContact, deleteContact } from './operations';
 
 const handlePending = state => {
